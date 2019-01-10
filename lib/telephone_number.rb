@@ -1,6 +1,5 @@
 require 'telephone_number/version'
 require 'utilities/hash'
-require 'active_model/telephone_number_validator' if defined?(ActiveModel)
 require 'forwardable'
 
 module TelephoneNumber
